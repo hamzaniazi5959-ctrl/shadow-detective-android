@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Shadow Detective</string>
+    <string name="hero_name">Officer Sara</string>
+    <string name="partner_name">Partner Ryan</string>
+    <string name="k9_name">Rex (K9 Unit)</string>
+    <string name="tab_world">City Patrol</string>
+    <string name="tab_cases">20 Cases</string>
+    <string name="tab_precinct">Precinct HQ</string>
+    <string name="tab_city_life">Shops &amp; Life</string>
+    <string name="tab_ai_studio">Lab &amp; News</string>
+    <string name="security_warning_prototype">Security Warning: API keys are packaged in this prototype APK via BuildConfig. Do not share this APK publicly.</string>
+</resources>

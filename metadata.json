@@ -1,0 +1,6 @@
+{
+  "name": "Shadow Detective",
+  "description": "Neo-noir open-world police detective RPG starring Officer Sara with 20 story cases, interrogation, evidence board, city life simulation, AI forensics photo studio, Veo video cutscene animator, and live crime news wire.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
