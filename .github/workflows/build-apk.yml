@@ -19,15 +19,14 @@ jobs:
         java-version: '17'
         distribution: 'temurin'
         
-    - name: Setup Android SDK
-      uses: android-actions/setup-android@v2
-      
     - name: Grant execute permission for gradlew
       run: chmod +x gradlew
       
     - name: Build Debug APK
       run: ./gradlew :app:assembleDebug
-      
+      env:
+        ANDROID_HOME: /usr/local/lib/android/sdk
+        
     - name: Upload APK
       uses: actions/upload-artifact@v4
       with:
